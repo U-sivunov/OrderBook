@@ -120,8 +120,12 @@
     background: white;
   }
 
-  table {
-    width: 45%;
+  /*table {*/
+  /*  width: 45%;*/
+  /*}*/
+
+  table tr {
+    height: 20px;
   }
 
   table th, table td {
