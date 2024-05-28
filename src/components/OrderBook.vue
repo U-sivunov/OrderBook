@@ -124,11 +124,11 @@
   /*  width: 45%;*/
   /*}*/
 
-  table tr {
+  tbody tr {
     height: 20px;
   }
 
-  table th, table td {
+  tbody th, thead td {
     text-align: left;
     padding: 8px;
   }
