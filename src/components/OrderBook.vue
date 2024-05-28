@@ -120,17 +120,15 @@
     background: white;
   }
 
-  /*table {*/
-  /*  width: 45%;*/
-  /*}*/
-
   tbody tr {
     height: 20px;
+    background-attachment: fixed;
   }
 
   tbody th, thead td {
     text-align: left;
     padding: 8px;
+    height: 20px;
   }
 
   table thead {
