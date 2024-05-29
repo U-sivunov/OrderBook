@@ -122,7 +122,7 @@
 
   tbody tr {
     height: 20px;
-    background-attachment: scroll !important;
+    display: block;
   }
 
   tbody th, thead td {
