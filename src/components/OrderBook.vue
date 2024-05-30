@@ -127,7 +127,7 @@
 
   tbody tr, thead tr {
     height: 20px;
-    /*display: block;*/
+    display: table-row;
   }
 
   tbody th, thead td {
