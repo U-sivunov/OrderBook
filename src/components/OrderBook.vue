@@ -13,7 +13,7 @@
       <v-card-text>
         <v-row style="flex-wrap: nowrap;">
           <v-col cols="12" md="6" class="order-book-table">
-            <v-simple-table >
+            <table>
               <thead>
               <tr>
                 <th>Price</th>
@@ -30,7 +30,7 @@
                 </tr>
               </template>
               </tbody>
-            </v-simple-table>
+            </table>
           </v-col>
           <v-col cols="12" md="6" class="order-book-table">
             <v-simple-table>
@@ -120,9 +120,9 @@
     background: white;
   }
 
-  tbody tr {
+  tbody tr, thead tr {
     height: 20px;
-    display: block;
+    /*display: block;*/
   }
 
   tbody th, thead td {
