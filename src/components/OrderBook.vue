@@ -13,7 +13,7 @@
       <v-card-text>
         <v-row style="flex-wrap: nowrap;">
           <v-col cols="12" md="6" class="order-book-table">
-            <table >
+            <table>
               <thead>
               <tr>
                 <th>Price</th>
@@ -33,7 +33,7 @@
             </table>
           </v-col>
           <v-col cols="12" md="6" class="order-book-table">
-            <v-simple-table>
+            <table>
               <thead>
               <tr>
                 <th>Price</th>
@@ -50,7 +50,7 @@
                 </tr>
               </template>
               </tbody>
-            </v-simple-table>
+            </table>
           </v-col>
         </v-row>
       </v-card-text>
@@ -146,6 +146,13 @@
 
   .bid-orders td:first-child {
     color: rgb(46, 189, 133);
+  }
+
+  .v-input {
+    margin-left: 0 !important;
+  }
+  .v-row {
+    margin: 0 !important;
   }
 
   .red--text {
