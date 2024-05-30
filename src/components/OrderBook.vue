@@ -13,7 +13,7 @@
       <v-card-text>
         <v-row style="flex-wrap: nowrap;">
           <v-col cols="12" md="6" class="order-book-table">
-            <table>
+            <table >
               <thead>
               <tr>
                 <th>Price</th>
@@ -112,6 +112,11 @@
     overflow-y: auto;
     flex-shrink: 1;
     padding: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
   }
 
   thead {
