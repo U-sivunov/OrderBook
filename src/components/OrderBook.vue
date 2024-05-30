@@ -108,7 +108,7 @@
 
 <style scoped>
   .order-book-table {
-    max-height: calc(100vh - 216px);
+    max-height: calc(100vh - 238px);
     overflow-y: auto;
     flex-shrink: 1;
     padding: 0;
